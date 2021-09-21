@@ -1,0 +1,16 @@
+{
+  "name": "nwjs-notepad",
+  "version": "0.0.1",
+  "description": "A simple text editor.",
+  "main": "index.html",
+  "window": {
+    "width": 400,
+    "height": 520,
+    "show": false,
+    "title": "NW.js Notepad",
+    "toolbar": false
+  },
+  "scripts": {
+    "start": "nw ."
+  }
+}

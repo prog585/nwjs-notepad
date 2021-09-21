@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NW Notepad</title>
+<script src="zepto.min.js"></script>
+<script src="editor.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="buttons">
+	<button id="new"> <img src="img/16x16/file_add.png"/>New  </button>
+	<button id="open"><img src="img/16x16/file.png"/>    Open </button>
+	<button id="save"><img src="img/16x16/diskette.png"/>Save </button>
+	<button id="cut"> <img src="img/16x16/cut.png"/>Cut  </button>
+	<button id="copy"><img src="img/16x16/copy.png"/>    Copy </button>
+	<button id="paste"><img src="img/16x16/paste.png"/>Paste </button>
+</div>
+
+<div id="editor" contentEditable="true"></div>
+
+<div class="info">
+  <label>Filename: </label><span id="title"></span>
+  
+</div>
+
+<input style="display:none;" id="openFile" type="file" />
+<input style="display:none;" id="saveFile" type="file" nwsaveas />
+</body>
+</html>
